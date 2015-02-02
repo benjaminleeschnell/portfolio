@@ -203,11 +203,12 @@ a:hover{text-decoration: none;}
 	display: table;
 }
 .v-center .vc-content{
-	display: table-cell;
+	/*display: table-cell;*/
 	vertical-align: middle;
 	text-align: center;
 	width: 100%;
 	height: 100%;
+	padding: 5% 0 0 50%;
 }
 .hero .btn-dwn{
 	width: 58px;
@@ -382,4 +383,9 @@ img.mg-lg{
     .btn-dwn{
        display:none; 
     }
+    .v-center .vc-content {
+    	display: table-cell;
+    	padding: 0 0;
+    }
 }
+
