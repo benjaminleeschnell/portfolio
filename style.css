@@ -1,6 +1,5 @@
 /*-----------------------------------------------------------------------------------*/
-/*	    Ben Schnell Web Developer
-/*      Built with blocs
+/*	  benschnell.com
 /*-----------------------------------------------------------------------------------*/
 
 body{
@@ -122,6 +121,14 @@ a:hover{text-decoration: none;}
 #quote{
 	background-color:#3f4d5a;
 }
+#quote p {
+	font-size: 1.2em;
+}
+
+#quote img {
+	max-height: 200px;
+	margin: 0 auto;
+}
 #hero-bloc h1{
 	font-size: 50px;
 	text-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 2px;
@@ -138,6 +145,38 @@ a:hover{text-decoration: none;}
 #quote p{
 	font-family: Lato;
 	font-weight: 300;
+}
+
+/*Blog Styles */
+
+.topHero {
+	height: 40% !important;
+	background: url('img/full.jpg') center center fixed;
+	background-size: cover;
+}
+
+.topHero li {
+	line-height: 12 !important;
+}
+
+.post {
+	max-width: 740px;
+	margin: 0 auto;
+}
+
+/* Project Styles */
+
+.meditation {
+	max-width: 740px !important;
+	margin: 0 auto;
+}
+
+.meditation h3 {
+	padding: 0 0 30px 0 !important;
+}
+
+.meditation hr {
+	padding: 0 0 30px 0 !important;
 }
 
 /* Bloc image backgrounds */
