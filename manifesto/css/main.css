@@ -1,0 +1,134 @@
+body {
+	background-color: black;
+}
+
+.space-frame {
+	background-color: black;
+}
+
+p {
+	color: white;
+	font-size: 1.5em;;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+h1 {
+  	font-size: 4em;
+  	text-align: left;
+  	color: white;
+  	font-weight: 500;
+}
+
+a {
+	color: white;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+
+.frameOne p {
+	text-align: left;
+}
+
+.frameOne img {
+	width: 65px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.frameThree p {
+	text-align: left;
+}
+
+.frameEight p {
+	text-align: left;
+	font-size: 2em;
+}
+
+li {
+	color: white;
+	font-size: 1.5em;;
+	line-height: 1.5em;
+}
+
+.frameNine p {
+	text-align: left;
+	font-size: 2em;
+}
+
+.marginTop20 {
+	margin-top: 20px;
+}
+
+.marginTop20 p {
+	font-size: 1em;
+}
+
+/* FAQ styles */
+
+.faq {
+	background-color: white;
+	max-width: 740px;
+	padding: 100px;
+	margin: 100px auto;
+}
+
+
+.faq li {
+	color: black;
+	font-size: 1.2em;
+	text-align: left;
+}
+
+.faq p {
+	color: black;
+	font-size: 1.2em;
+	text-align: left;
+}
+
+.faq h1 {
+	color: black;
+	font-size: 1.2em;
+	text-align: left;
+}
+
+.faq h4 {
+	color: black;
+	font-size: 1.2em;
+	text-align: left;
+}
+
+.faq a {
+	font-size: 1em;
+	color: black;
+}
+
+.faq a:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
